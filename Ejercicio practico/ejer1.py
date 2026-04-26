@@ -12,8 +12,8 @@ crudo_dalto = 3.5
 
 # diferencias de duracion 
 
-diferencia_con_min = 100 -  (dalto / otros_cursos_min * 100)
-diferencia_con_max = 100 -  (dalto * 1000 // otros_cursos_max / 10)
+diferencia_con_min = 100 - (dalto / otros_cursos_min * 100, 2)
+diferencia_con_max = round(100 - dalto  / otros_cursos_max * 100, 2)
 diferencia_con_promedio = 100 -  (dalto / otros_cursos_promeio * 100)
 
 # Calculando el porcentaje de tiempo vacio remove
