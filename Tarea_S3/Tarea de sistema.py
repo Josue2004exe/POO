@@ -28,5 +28,3 @@ def gestionar_sistema_archivo():
     print(f"Permiso de '{nombre_archivo} cambiados a solo lectura.'")
     
 gestionar_sistema_archivo()
-
-    
