@@ -34,8 +34,11 @@ class Persona:
         print(f"Teléfono: {self.telefono}")
         print(f"Correo: {self.correo}")
 
-    def presentarse(self):
-        print(f"Hola, soy {self.nombres} {self.apellidos}, tengo {self.edad} años y soy una persona.")
+    def mostrar_informacion_general(self):
+        print("\n ------INFORMACION GENERAL------")
+        print(f"Fechas de nacimiento: {self.fecha_nacimiento}")
+        print(f"Nacionalidad: {self.nacionalidad}")    
+    
 
 
 class Estudiante(Persona):
@@ -64,6 +67,7 @@ class Estudiante(Persona):
     def presentarse(self):
         print(f"Hola, soy {self.nombres} {self.apellidos}, tengo {self.edad} años, " f"soy estudiante de {self.carrera} y estoy en {self.semestre}.")
 
+    
 
 class Profesor(Persona):
     def __init__(self, cedula, nombres, apellidos, edad, genero, direccion, telefono, correo,
@@ -123,6 +127,7 @@ est1.mostrar_datos_personales()
 est1.mostrar_contacto()
 est1.mostrar_datos_estudiante()
 est1.mostrar_rendimiento()
+est1.mostrar_informacion_general()
 presentarse(est1)
 
 print("\n========== INFORMACIÓN DEL PROFESOR ==========")
@@ -130,4 +135,5 @@ prof1.mostrar_datos_personales()
 prof1.mostrar_contacto()
 prof1.mostrar_datos_profesor()
 prof1.mostrar_materia()
+prof1.mostrar_informacion_general()
 presentarse(prof1)
