@@ -1,0 +1,1 @@
+Fernando, Pazmiño, 0959420608, 21, Balahoyo, EMPL01, fernando@unemi.edu.ec, Profesor de Base de datos, 20/05/2026, $0.80, Ingenieria de Software, Base de datos, Magister, 4 Horas, Presencial

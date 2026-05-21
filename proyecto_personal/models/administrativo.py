@@ -30,7 +30,7 @@ class Administrativo(Colaborador):
             correo_institucional,
             area_trabajo,
             fecha_ingreso,
-            sueldo,
+            sueldo
             
         )
         self.departamento = departamento

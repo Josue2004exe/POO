@@ -35,6 +35,7 @@ def registrar_colaborador():
     datos_persona = pedir_datos_persona()
     datos_colaborador = perdir_datos_colaborador()
     
+    # El asterisco (*) desempaqueta la tupla; envía cada valor interno como un parámetro independiente a la clase.
     colaborador = Colaborador(*datos_persona, *datos_colaborador)
     colaborador.mostrar_info()
     colaborador.guardar()
@@ -51,9 +52,10 @@ def registrar_docente():
     horas_clase = input("Ingrese horas de clase: ")
     modalidad = input("Ingrese modalidad: ")
     
+    # El asterisco (*) desempaqueta la tupla; envía cada valor interno como un parámetro independiente a la clase.
     docente = Docente(
-        *datos_persona,
-        *datos_colaborador,
+        *datos_persona, #(*) Desempaquetar y envia  los 5 datos personales como argumentos individuales
+        *datos_colaborador,#(*) Desempaqueta y envia los 5 datos de colaborador como argumentos individuales
         facultad,
         asignatura,
         nivel_academico,
@@ -76,10 +78,10 @@ def registrar_administrativo():
     extension_telefonica = input("Ingrese extensión telefónica: ")
     tipo_contrato = input("Ingrese tipo de contrato: ")
     
-    
+    # # El asterisco (*) desempaqueta la tupla; envía cada valor interno como un parámetro independiente a la clase.
     administrativo = Administrativo(
-        *datos_persona,
-        *datos_colaborador,
+        *datos_persona, #(*) Desempaquetar y envia  los 5 datos personales como argumentos individuales
+        *datos_colaborador,#(*) Desempaqueta y envia los 5 datos de colaborador como argumentos individuales
     departamento,
     cargo,
     horario,
