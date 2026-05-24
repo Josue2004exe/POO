@@ -1,0 +1,17 @@
+Los datos son: 
+
+Nombres: Flavio
+Apellido: Morales
+-------------
+Nombres: Gorge
+Apellido: Martin
+-------------
+Nombres: Julio
+Apellido: Vera
+-------------
+Nombres: Freddy
+Apellido: Gonzales
+-------------
+Nombres: Carla
+Apellido: Monte
+-------------
